@@ -22,7 +22,7 @@ $(function(){
                 console.log(res);
                 // 调用渲染头像的函数
                 rederAvater(res.data);
-            },
+            }
             // 不管调用成功或者失败，都会调用complete函数   
 //             complete: function(res){
 //                 // 使用res.responseJSON得到调用失败的信息
